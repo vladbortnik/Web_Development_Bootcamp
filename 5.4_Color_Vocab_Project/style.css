@@ -1,3 +1,9 @@
 .color-title {
-    color: var(--color, FFFF00);
+    color: var(--color, FFFF00); /* Fallback to white if --color is not set */
+    font-weight: normal;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
