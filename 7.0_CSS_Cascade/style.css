@@ -1,3 +1,8 @@
+#outter-box {
+  /* THIS DOES NOT WORK FOR SOME REASON */
+  background-color: blueviolet;
+}
+
 /* Don't change the existing CSS. */
 
 .box {
@@ -5,8 +10,16 @@
   padding: 10px;
 }
 
+.inner-box {
+  background-color: red;
+}
+
 p {
   color: yellow;
   margin: 0;
   padding: 0;
+}
+
+.white-text {
+  color: white;
 }
